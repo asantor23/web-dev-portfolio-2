@@ -233,3 +233,33 @@ main{
     text-align: center;
     margin-top: 30px;
 }
+
+/* Footer */
+.footer{
+    display: flex;
+    padding: 120px 230px;
+    gap: 100px;
+    margin-top: 40px;
+}
+.footer-column{
+
+}
+.footer-description{
+     font-size: 16px;
+    font-weight: 200;
+    color: #757575;
+    margin-bottom: 40px;
+}
+footer input[type="text"], footer input[type="email"]{
+    height:48px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 18px;
+    border: none;
+}
+.footer input[type="submit"]{
+    margin-top: 20px;
+}
